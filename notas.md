@@ -155,10 +155,19 @@ P = -V·I2 = -180 · 12 = -2160W = -2.16kW
 
 Nó A: I1 + I2 + I3 = 0
 Nó B: I3 = I5 + I4
-Nó C: I5 + I2 = I4
+Nó C: I5 + I2 = I6
 
 ##### V. Relacionar as correntes com as tensões nodais (Lei das malhas)
 
 I1 = ? → VA = 180
 
+
 25 · I2 + VC - VA = 0 →  I2 = ( VA - VC ) / 25
+
+5 · I3 + VB - VA = 0 → I3 = ( VA - VB ) / 5
+
+I4 = VB / 70
+
+10 · I5 + VC - VB = 0 → I5  = ( VB - VC ) /  10
+
+I6 = VC / 8
