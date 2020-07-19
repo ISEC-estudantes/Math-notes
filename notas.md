@@ -1,5 +1,49 @@
 # Estudo de Eletro
 
+## Aulas Teoricas
+
+### Aula 4
+
+**Lei dos nós**
+
+O sumatorio das correntes que entram é igual ao sumatirio das correntes que saiem de um nó.
+
+![](T4leiDosNos.png)
+
+**Lei das Malhas**
+
+O sumatorio das quedas de tensão numa malha é nulo.
+
+![](T4leiDasMalhas.png)
+
+    1. Circuitos Complexos
+
+![](T4circuito.png)
+
+
+        a. Técnicas de análises  de circuitos
+        
+            i. Método direto
+            
+![](T4metodoDireto.png)           
+
+![](T4circuitoDireto.png) 
+                
+            ii. Método das malhas
+            
+![](T4metodoDasMalhas.png)
+
+![](T4circuitoMalhas.png)
+
+            iii. Métodos nodais
+
+![](T4metodoDasTensoesNodaisp1.png)
+
+![](T4metodoDasTensoesNodaisp2.png)
+
+![](T4circuitoNodais.png)
+            
+        
 ## Aulas Praticas
 
 ### Aula 4 Ex 8
