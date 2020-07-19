@@ -93,7 +93,43 @@ O sumatorio das quedas de tensão numa malha é nulo.
 
 ![](T4circuitoNodais.png)
             
+### Aula 5
+
+#### Análise de circuitos complexos: Casos particulares
         
+    Conceito de super-malha: 
+
+![Super-Malha](T5supermalha1.png)
+![Super-Malha](T5supermalha2.png)
+
+Quando entre duas malhas simples existe um ramo com uma fonte de corrente.
+    
+- Aplicar método das malhas
+    
+- Aplicar a lei das malhas à super-malha.
+
+- Relacionar as correntes de malha com a corrente do ramo contido na super-malha.
+
+        Resolvendo
+
+            1º Super-malha:
+    
+![](T5supermalha1ComCorrentesFicticias.png)
+
+\- V1 + R1 · IA + R3 · IB + V2 = 0
+
+I1 = IA - IB
+
+            2º Super-Malha:
+    
+![](T5supermalha2ComCorrentesFicticias.png)
+
+\- V3 + R4 · IA + R6 · IB + R8 · IC + V4 = 0
+
+I2 = IA - IB
+
+I3 = IB - IC
+
 ## Aulas Praticas
 
 ### Aula 4 Ex 8
