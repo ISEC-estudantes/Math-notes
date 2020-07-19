@@ -2,6 +2,56 @@
 
 ## Aulas Teoricas
 
+### Aula 3
+
+    1. Componentes
+        
+        a. Passivos - Retiram energia ao circuito (transformando em)
+        
+            i. Resistencia (calor)
+![](T3resistencia.png)
+
+            ii. Condensador (campo eletrico)
+![](T3condensador.png)
+            
+            iii. Bobine (campo magnetico)   
+![](T3bobine.png)
+
+        b. Activos - Fornecem energia ao circuito
+        
+            i. Fontes de tensão
+![](T3fonteTensao.png)
+            
+            ii. Fontes de corrente
+![](T3fonteCorrente.png)
+
+    2. Análise Circuitos
+        
+        1. Circuitos Simples (circuitos com uma fonte)
+        
+            a. Ferramentas:
+                
+                i. Fórmula do divisor de tensão.
+![](T3divisorTensao.png)
+![](T3divisorTensaoDemo.png)
+
+                ii. Fórmula do divisor da corrente.
+                
+![](T3divisorCorrente.png)
+                
+                iii. Associaão de resistências.
+                    
+                    Resistências em série.
+![](T3resistenciaSerie.png)
+![](T3resistenciaSerieDemo.png)
+
+                    Resistências em paralelo.
+![](T3resistenciaParalelo.png)
+![](T3resistenciaParaleloDemo.png)
+                        
+                    
+            
+
 ### Aula 4
 
 **Lei dos nós**
