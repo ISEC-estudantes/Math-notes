@@ -174,17 +174,18 @@ I6 = VC / 8
 
 ##### VI. Substituir correntes pelas tensões nodais (substituir V em IV)
 
-```
 
-```
+` `
+
+
 **Nó A:** I1 + ( VA - VC ) / 25 + ( VA - VB ) / 5 = 0
 
 <=> I1 + VA/25 - VC/25 + VA/5 - VB/5 = 0
 
 <=> I1  - VB/5  - VC/25 = -180·(1/25+ 1/5)
-```
 
-```
+` `
+
 **Nó B:** ( VA - VB ) / 5 = ( VB - VC ) /  10 + VB / 70 <=>
 
 <=> VA/5 -VB/5 = VB/10 - VC/10 + VB/70
@@ -193,9 +194,8 @@ I6 = VC / 8
 
 <=> VB·(-1/5 - 1/10 - 1/70) + VB/10 = -180/5
 
-```
+` `
 
-```
 **Nó C:** ( VB - VC ) /  10 + ( VA - VC ) / 25 = VC / 8 <=>
 
 <=> VB/10 - VC/10 + VA/25 - VC/25 = VC/8 <=>
@@ -204,10 +204,14 @@ I6 = VC / 8
 
 <=> VB/10 + VC·( -1/10 -1/25 - 1/8) = -180/25
 
+
 ```
 
 ```
+
+
 ##### VII. Calculos e resultados
+
 
 ```octave
 A = [ 
