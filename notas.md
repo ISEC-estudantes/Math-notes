@@ -141,7 +141,24 @@ Quando entre dois nós essenciais existe um ramo com uma fonte de tensão.
 
         Super-nó:
 
+    
 ![]()
+
+## Aula 6 - Teoremas de simplificaão de circuitos (sistemas lineares)
+
+Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, condesadores e as bobinas).
+
+- Memória.
+
+- Establidade.
+
+- Causais.
+
+- Linearidade ( fontes de tensão, fonte de corrente e resistências)
+    
+    um circuito com um díodo ou transistors é um exemplo de um circuito não linear porque pode ou não transportar corrente dependendo da corrente/volagem
+
+
 
 ## Aulas Praticas
 
