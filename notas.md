@@ -130,6 +130,19 @@ I2 = IA - IB
 
 I3 = IB - IC
 
+    Conceito de super-nó: 
+
+Quando entre dois nós essenciais existe um ramo com uma fonte de tensão.
+
+- Aplicar método das tensões nodais.
+- Aplicar a lei dos nós ao super-nó.
+- Relacionar as quedas de tensão nodal com a tensão nodal com a tensão entre os nós que compõem o super-nó.
+- **UM SUPER-NÓ NÃO PODE SER NÓ DE REFERÊNCIA**
+
+        Super-nó:
+
+![]()
+
 ## Aulas Praticas
 
 ### Aula 4 Ex 8
