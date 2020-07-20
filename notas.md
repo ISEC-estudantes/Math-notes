@@ -158,6 +158,10 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
     
     um circuito com um díodo ou transistors é um exemplo de um circuito não linear porque pode ou não transportar corrente dependendo da corrente/volagem
 
+    
+        Exemplo
+        
+![](T6teoremadethevenin.png)
 
 
 ## Aulas Praticas
