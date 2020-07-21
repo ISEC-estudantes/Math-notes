@@ -177,31 +177,33 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
 
 ### Aula 8 - Analise de circuitos com diodos
 
+![](T8comportamentodeumdiodo.png)
+
 Análise de circuitos com díodos: 
 
-1º Identificar o nº máximo de estados.
+**1º Identificar o nº máximo de estados.**
 
 Nº máximo de estados é 2 elevados ao numero de díodos
 
 Exemplos:
 
-1 díodo = 2¹ = 2 ESTADOS
-    
-        a)  Diodo conduz
-    
-        b)  Diodo n/conduz
+        1 díodo = 2¹ = 2 ESTADOS
+            
+                a)  Diodo conduz
+            
+                b)  Diodo n/conduz
 
-2 díodos (D1,D2) = 2² = 4 ESTADOS
+        2 díodos (D1,D2) = 2² = 4 ESTADOS
+            
+                a)  D1 conduz e D2 conduz
+            
+                b)  D1 conduz e D2 n/conduz
+            
+                c)  D1 n/conduz e D2 n/conduz
+            
+                d)  D1 n/conduz e D2 conduz
     
-        a)  D1 conduz e D2 conduz
-    
-        b)  D1 conduz e D2 n/conduz
-    
-        c)  D1 n/conduz e D2 n/conduz
-    
-        d)  D1 n/conduz e D2 conduz
-    
-2º Analisar todos os estados de forma individual
+**2º Analisar todos os estados de forma individual**
 
             a) Começar por analisar o estado em que mais dóiodos conduzem.
             
@@ -223,6 +225,21 @@ Exemplos:
             
             d) representação temporal das formas de onda da tensão de entrada e de saída.
 
+### Aula 9 - Continuação da aula 8
+
+Análise de circuito com díodos (fontes de tensão alternada)
+
+1. Identificar o nº de estados.
+    
+    Nº máximo de estados = 2 ^ (nº de díodos)
+    
+    a. coisas
+        
+        sim
+    
+
+            
+            
 ## Aulas Praticas
 
 ### Aula 4 Ex 8
