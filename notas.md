@@ -144,7 +144,15 @@ Quando entre dois nós essenciais existe um ramo com uma fonte de tensão.
     
 ![]()
 
-## Aula 6 - Teoremas de simplificaão de circuitos (sistemas lineares)
+### Aula 6 - Teoremas de simplificaão de circuitos (sistemas lineares)
+
+- **Teorema de Thevenin** - permite converter um circuito complexo num circuito simples composto por uma fonte de tensão (tensão de thevenin) e uma resistência (resistência de thevenin).
+
+- **Teorema de sobreposição** - permite converter um circuito complexo num conjunto de diversos circuitos simples.
+
+    -   Analisar cada um dos ciruitos simples.
+    -   Adicionar os contributos individuais de cada circuito simples.
+
 
 Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, condesadores e as bobinas).
 
@@ -163,6 +171,43 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
         
 ![](T6teoremadethevenin.png)
 
+### Aula 7 - Explicação teorica de diodos
+
+[Wikipedia - Diodo semicondutor](https://pt.wikipedia.org/wiki/Diodo_semicondutor)
+
+### Aula 8 - Analise de circuitos com diodos
+
+Análise de circuitos com díodos: 
+
+1º Identificar o nº máximo de estados.
+
+Nº máximo de estados é 2 elevados ao numero de díodos
+
+Exemplos:
+
+1 díodo = 2¹ = 2 ESTADOS
+    
+        a)  Diodo conduz
+    
+        b)  Diodo n/conduz
+
+2 díodos (D1,D2) = 2² = 4 ESTADOS
+    
+        a)  D1 conduz e D2 conduz
+    
+        b)  D1 conduz e D2 n/conduz
+    
+        c)  D1 n/conduz e D2 n/conduz
+    
+        d)  D1 n/conduz e D2 conduz
+    
+2º Analisar todos os estados de forma individual
+
+            a) Começar por analisar o estado em que mais dóiodos conduzem.
+            
+                a. Impor a condução do díodo (partir do pressuposto que o díodo conduz)
+                
+                b. 
 
 ## Aulas Praticas
 
