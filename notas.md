@@ -205,9 +205,23 @@ Exemplos:
 
             a) Começar por analisar o estado em que mais dóiodos conduzem.
             
-                a. Impor a condução do díodo (partir do pressuposto que o díodo conduz)
+                    a. Impor a condução do díodo (partir do pressuposto que o díodo conduz)
+                    
+                    b. Substituir o díodo pelo circuito equivalente em condução.
+                    
+                    c. Impor o sentido correto para a corrente.A corrente no díodo deve ter o sentido do ânodo para o cátodo.
+                    
+                    d. Impor a condição : Id > 0 -> obter a condição que determina a condução do díodo. Qual o valor da tensão de entrada que garante a condução do díodo.
+                    
+                    Identificar para que valores de tensão de entrada o díodo conduz.
+                    
+                    e. Relacionar a tensão de saída com a tensão de entrada (função transferência.)
                 
-                b. 
+            b)  agregar os valores das equações/ condições obtidas para cada um dos estados numa só equação não linear - função transferência analítica.
+            
+            c) Representar graficamente a função transferência.
+            
+            d) representação temporal das formas de onda da tensão de entrada e de saída.
 
 ## Aulas Praticas
 
