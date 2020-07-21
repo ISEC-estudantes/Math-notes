@@ -235,6 +235,7 @@ Análise de circuito com díodos (fontes de tensão alternada)
     
     1. coisas
         
+        1. coisas
         
     
 
