@@ -231,7 +231,7 @@ Análise de circuito com díodos (fontes de tensão alternada)
 
 1. Identificar o nº de estados.
     
-    Nº máximo de estados = 2 ^ (nº de díodos)
+    1. Nº máximo de estados = 2 ^ (nº de díodos)
     
     1. coisas
         
