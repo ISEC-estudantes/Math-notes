@@ -233,9 +233,9 @@ Análise de circuito com díodos (fontes de tensão alternada)
     
     Nº máximo de estados = 2 ^ (nº de díodos)
     
-    a. coisas
+    1. coisas
         
-        sim
+        
     
 
             
