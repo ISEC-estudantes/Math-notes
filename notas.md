@@ -187,43 +187,43 @@ Nº máximo de estados é 2 elevados ao numero de díodos
 
 Exemplos:
 
-        1 díodo = 2¹ = 2 ESTADOS
-            
-                a)  Diodo conduz
-            
-                b)  Diodo n/conduz
+- 1 díodo = 2¹ = 2 ESTADOS
+    
+    1. Diodo conduz
 
-        2 díodos (D1,D2) = 2² = 4 ESTADOS
-            
-                a)  D1 conduz e D2 conduz
-            
-                b)  D1 conduz e D2 n/conduz
-            
-                c)  D1 n/conduz e D2 n/conduz
-            
-                d)  D1 n/conduz e D2 conduz
+    2.  Diodo n/conduz
+
+- 2 díodos (D1,D2) = 2² = 4 ESTADOS
+
+    1.  D1 conduz e D2 conduz
+
+    1.  D1 conduz e D2 n/conduz
+
+    1.  D1 n/conduz e D2 n/conduz
+
+    1.  D1 n/conduz e D2 conduz
     
 **2º Analisar todos os estados de forma individual**
 
-            a) Começar por analisar o estado em que mais dóiodos conduzem.
-            
-                    a. Impor a condução do díodo (partir do pressuposto que o díodo conduz)
-                    
-                    b. Substituir o díodo pelo circuito equivalente em condução.
-                    
-                    c. Impor o sentido correto para a corrente.A corrente no díodo deve ter o sentido do ânodo para o cátodo.
-                    
-                    d. Impor a condição : Id > 0 -> obter a condição que determina a condução do díodo. Qual o valor da tensão de entrada que garante a condução do díodo.
-                    
-                    Identificar para que valores de tensão de entrada o díodo conduz.
-                    
-                    e. Relacionar a tensão de saída com a tensão de entrada (função transferência.)
-                
-            b)  agregar os valores das equações/ condições obtidas para cada um dos estados numa só equação não linear - função transferência analítica.
-            
-            c) Representar graficamente a função transferência.
-            
-            d) representação temporal das formas de onda da tensão de entrada e de saída.
+1. Começar por analisar o estado em que mais dóiodos conduzem.
+
+    1. Impor a condução do díodo (partir do pressuposto que o díodo conduz)
+
+    2. Substituir o díodo pelo circuito equivalente em condução.
+
+    3. Impor o sentido correto para a corrente.A corrente no díodo deve ter o sentido do ânodo para o cátodo.
+
+    4. Impor a condição : Id > 0 -> obter a condição que determina a condução do díodo. Qual o valor da tensão de entrada que garante a condução do díodo.
+
+        Identificar para que valores de tensão de entrada o díodo conduz.
+
+    5. Relacionar a tensão de saída com a tensão de entrada (função transferência.)
+
+2.  agregar os valores das equações/ condições obtidas para cada um dos estados numa só equação não linear - função transferência analítica.
+
+3. Representar graficamente a função transferência.
+
+4. representação temporal das formas de onda da tensão de entrada e de saída.
 
 ### Aula 9 - Continuação da aula 8
 
@@ -235,38 +235,62 @@ Análise de circuito com díodos (fontes de tensão alternada)
     
     2. Analisar individualmente todos os estados.
     
-    3. Começar por analisar o estado em que o díodo conduz (partir do pressuposto que o díodo conduz).
+3. Começar por analisar o estado em que o díodo conduz (partir do pressuposto que o díodo conduz).
         
-        1.  Substituir o díodo pelo circuito equivalente em condução
-        
-        
-        
-        2.  Impor o sentido correto para a corrente (A -> K)
-        
-        3.  Analisar o circuito utilizando a lei das malhas.
-        
-              ![](T9exemplo1.1.2.png)
-        
-               Rd = 100Ω
-               
-               Vo = 0,7V
-            
-        
-        4. Relacionar a corrente do díodo (id) com a tensão de entrada do círcuito (vin).
-            
-            1. Substituir o díodo pelo circuito equivalente em n/condução.
-            
-            2. Analisar o circuito utilizando a lei das malhas.
-            
-            3. Determinar para que valores de vin o díodo n/conduz.
-            
-            4. Relacionar a tensão de sáida (vout) com tensão de entrada (Funcão tranferência)
-
-        5. Juntar ambas as equações numa equação não  
+    1.  Substituir o díodo pelo circuito equivalente em condução
     
+    
+    
+    2.  Impor o sentido correto para a corrente (A -> K)
+    
+    3.  Analisar o circuito utilizando a lei das malhas.
+    
+            ![](T9exemplo1.1.2.png)
+    
+            Rd = 100Ω
+            
+            Vo = 0,7V
+        
+    
+    4. Relacionar a corrente do díodo (id) com a tensão de entrada do círcuito (vin).
+        
+        1. Substituir o díodo pelo circuito equivalente em n/condução.
+        
+        2. Analisar o circuito utilizando a lei das malhas.
+        
+        3. Determinar para que valores de vin o díodo n/conduz.
+        
+        4. Relacionar a tensão de sáida (vout) com tensão de entrada (Funcão tranferência)
 
+    5. Juntar ambas as equações numa equação não  linear → função transferência analítica.
+    
+    6. Representar a função transferência graficamente.
+    
+    7. Representar as formas de onda da tensão de entrada e saída em função do tempo.
+    
+    
+### Aula 10 - Transistors
+
+Díodos e resistência:
+
+- Passivos.
+
+- Dois terminais.
+
+Transístores:
+
+- Ativos.
+
+- Três terminais
+
+Aplicações (transistores):
+
+* Linear (potenciómetro controlado eletronicamente).
+    
+    * Fontes de alimentação lineares.
             
-            
+    * Amplificador
+    
 ## Aulas Praticas
 
 ### Aula 4 Ex 8
