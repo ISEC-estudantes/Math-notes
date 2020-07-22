@@ -233,10 +233,36 @@ Análise de circuito com díodos (fontes de tensão alternada)
     
     1. Nº máximo de estados = 2 ^ (nº de díodos)
     
-    1. coisas
+    2. Analisar individualmente todos os estados.
+    
+    3. Começar por analisar o estado em que o díodo conduz (partir do pressuposto que o díodo conduz).
         
-        1. coisas
+        1.  Substituir o díodo pelo circuito equivalente em condução
         
+        
+        
+        2.  Impor o sentido correto para a corrente (A -> K)
+        
+        3.  Analisar o circuito utilizando a lei das malhas.
+        
+              ![](T9exemplo1.1.2.png)
+        
+               Rd = 100Ω
+               
+               Vo = 0,7V
+            
+        
+        4. Relacionar a corrente do díodo (id) com a tensão de entrada do círcuito (vin).
+            
+            1. Substituir o díodo pelo circuito equivalente em n/condução.
+            
+            2. Analisar o circuito utilizando a lei das malhas.
+            
+            3. Determinar para que valores de vin o díodo n/conduz.
+            
+            4. Relacionar a tensão de sáida (vout) com tensão de entrada (Funcão tranferência)
+
+        5. Juntar ambas as equações numa equação não  
     
 
             
