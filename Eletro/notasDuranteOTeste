@@ -1,0 +1,38 @@
+4*230*1.5
+
+
+perguntas que faltam:
+
+1
+    vale 1.50
+    
+4
+    vale 2.50
+    sinusial
+    POR CONFIRMAR
+    
+6
+    vale 2
+    thevenin
+
+9 
+    vale 2
+    teorema da sobreposicao
+    
+10
+    vale  2.5
+
+19
+    vale 1.5
+    amp-ops
+    
+
+20
+    vale 0.2
+    polarizacoes
+    FEITO
+    
+    R1 = Rs
+    R2 = Rf
+    
+    vin > r2/r1-15 . r1/(r2+r1) e vin < (r2/r1+15).r1/r2+r1

@@ -283,14 +283,130 @@ Transístores:
 
 - Três terminais
 
-Aplicações (transistores):
+- Aplicações (transistores):
 
-* Linear (potenciómetro controlado eletronicamente).
-    
-    * Fontes de alimentação lineares.
+    - Linear (potenciómetro controlado eletronicamente).
+        
+        - Fontes de alimentação lineares.
+                
+            É um dispositivo que limita a tensão, por exemplo podemos usar a divisão de tensão para obter uma fonte de 5V a partir de uma fonte de 12V com resistencias desta forma (graças ao divisor da tensão):
             
-    * Amplificador
+            ![](T10divisorDeTensaoFonte.png)
+            
+            A resistencia da fonte tem de ser ajustada diacordo com a resistencia do dispositivo divital para que se de sempre 5V
+            
+            ![](T10divisorDeTensaoFonte2.png)
+            
+            Para tal usa se o transistor para comtrolar digitalmente a reistencia R1.
+            
+            
+                
+        * Amplificador
+           
+           ![](T10Amplificador.png)
+        
+    - Corte/saturação ( interruptor ).
+        - Fontes de alimentação comutadas.
+        - Amplificadores comutadas ( classe D ).
+        - Dispositivos digitais ( AND , OR , NOT , NAND , NOR ). 
     
+      
+- Transístores:
+        
+    - MOSFET - transístor de efeito de campo de óxido metálico semicondutor.
+        
+        Simbolo:
+        
+        ![](T10MOSFETcanalNSimbolo.png)
+        
+        Exemplo Funcional:
+        
+        ![](T10MOSFETexemploFuncionamento.png)
+        
+        - Ganho é reduzido ( não é uma boa solução para amplificadores).
+        - Perdas reduzindas na comutação (interruptor).
+    - BJT - transístor de bipolar de junção.
+        - Ganho é mito elevado ( é uma boa solução para amplificadores )
+        - Perdas elevadas na comutação ( não é uma boa solução para operar como interruptor )
+
+    - Transístores Bipolares:
+        - NPN
+            
+            Simbolo:
+            
+            ![](T10simboloNPN.png)
+            
+            Estrutura:
+            
+            ![](T10estruturaFisicaNPN.png)
+        
+        - PNP
+
+            Simbolo:
+        
+            ![](T10simboloPNP.png)
+
+            Estrutura:
+
+            ![](T10estruturaFisicaPNP.png)
+            
+            
+        - Discriçào:
+        
+            Emissor: fortemente dopada e de dimensão intermédia - emite.
+            
+            Base: fracamente dopada e de dimensão muito reduzida.
+            
+            Coletor: Dopagem intermédia e de dimensão muito grande.
+            
+    - Transístores BJT
+        - Díodo emissor
+        - Díodo coletor
+        
+    - Polarização - aplicação de uma tensão aos díodos (DE e DC) que compõe o transístor
+
+        - DE e DC diretamente polarizado - região de saturação (interruptor fechado)
+
+        - DE e DC inversamente polarizado - região de corte (interruptor aberto)
+
+        - DE diretamente polarizado e  o DC inversamente polarizado - região ativa (linear) - amplificador.
+        
+    - Amplificador com transístor BJT (configurador):
+
+        ![](T10amplificadorBJT.png)
+            
+    - Curva caracteristica transístor BJT na configuração em emissor-comum:
+    
+        1. Entrada
+            
+            A curva caracteristica é de um díodo porque é uma relação B com E
+        
+        2. Saída
+        
+### Aula 11 - Simulações de transístors
+
+![](T11?????.png)
+
+Simulações:
+
+- Circuitos
+    
+    ![](T11Circuitos.png)
+    
+- Calculos
+    
+    ![](T11calculosP1.png)
+    
+    ![](T11calculosP2.png)
+    
+### Aula 12 - Analise de Amplificadores
+
+![](T12analiseP1.png)
+
+### Aula 13 - Amp-Op
+
+ 
+
 ## Aulas Praticas
 
 ### Aula 4 Ex 8
