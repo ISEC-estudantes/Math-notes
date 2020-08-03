@@ -1,3 +1,9 @@
-# Anotações de Eletro e resuloções
+# tests-and-notes
 
-[Notas](https://github.com/OnikenX/Eletro-estudo/blob/master/notas.md)
+Este repo serve para guardar os meus apontamentos e recursos para estudar.
+
+## Anotações
+
+[Notas de Eletro](./Eletro/notas.md)
+
+[Notas de Metodos Estatisticos](./Metodos-Estatisticos/notas.md)
