@@ -1,6 +1,6 @@
 # tests-and-notes
 
-**\[AVISO\] Projeto movido para o [gitlab](https://gitlab.com/OnikenX/school-notes)**, de preferencia leia as notas no gitlab, por causa da syntax matematica.
+**\[AVISO\] Recomendo ver o projecto no [gitlab](https://gitlab.com/OnikenX/school-notes)** caso esteja a ler isto no github por causa da syntax matematica não é processada.
 
 Este repo serve para guardar os meus apontamentos e recursos para estudar.
 
