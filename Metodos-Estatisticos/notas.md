@@ -2,4 +2,4 @@
 
 # Notas de ME
 
-[teoricas](./teorica/teoria.md)
+[teoricas](./teorica/teorica.md)

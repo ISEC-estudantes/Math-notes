@@ -5,6 +5,13 @@
 ### Axiomas
 Considera *A* e *B* acontecimentos de um universo $\Omega$
 
+
+
+
+
+
+
+
 > $P(\bar{A})= 1-P(A)$
 
 > $P(\bar A) = 1 - P(A) \Leftrightarrow P(\bar A) + P(A) = 1$
