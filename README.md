@@ -1,4 +1,4 @@
-# tests-and-notes
+# school-notes
 
 **\[AVISO\] Recomendo ver o projecto no [gitlab](https://gitlab.com/OnikenX/school-notes)** caso esteja a ler isto no github por causa da syntax matematica não é processada.
 
