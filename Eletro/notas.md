@@ -10,21 +10,21 @@
         a. Passivos - Retiram energia ao circuito (transformando em)
         
             i. Resistencia (calor)
-![](T3resistencia.png)
+![](T03resistencia.png)
 
             ii. Condensador (campo eletrico)
-![](T3condensador.png)
+![](T03condensador.png)
             
             iii. Bobine (campo magnetico)   
-![](T3bobine.png)
+![](T03bobine.png)
 
         b. Activos - Fornecem energia ao circuito
         
             i. Fontes de tensão
-![](T3fonteTensao.png)
+![](T03fonteTensao.png)
             
             ii. Fontes de corrente
-![](T3fonteCorrente.png)
+![](T03fonteCorrente.png)
 
     2. Análise Circuitos
         
@@ -33,22 +33,22 @@
             a. Ferramentas:
                 
                 i. Fórmula do divisor de tensão.
-![](T3divisorTensao.png)
-![](T3divisorTensaoDemo.png)
+![](T03divisorTensao.png)
+![](T03divisorTensaoDemo.png)
 
                 ii. Fórmula do divisor da corrente.
                 
-![](T3divisorCorrente.png)
+![](T03divisorCorrente.png)
                 
                 iii. Associaão de resistências.
                     
                     Resistências em série.
-![](T3resistenciaSerie.png)
-![](T3resistenciaSerieDemo.png)
+![](T03resistenciaSerie.png)
+![](T03resistenciaSerieDemo.png)
 
                     Resistências em paralelo.
-![](T3resistenciaParalelo.png)
-![](T3resistenciaParaleloDemo.png)
+![](T03resistenciaParalelo.png)
+![](T03resistenciaParaleloDemo.png)
                         
                     
             
@@ -59,40 +59,40 @@
 
 O sumatorio das correntes que entram é igual ao sumatirio das correntes que saiem de um nó.
 
-![](T4leiDosNos.png)
+![](T04leiDosNos.png)
 
 **Lei das Malhas**
 
 O sumatorio das quedas de tensão numa malha é nulo.
 
-![](T4leiDasMalhas.png)
+![](T04leiDasMalhas.png)
 
     1. Circuitos Complexos
 
-![](T4circuito.png)
+![](T04circuito.png)
 
 
         a. Técnicas de análises  de circuitos
         
             i. Método direto
             
-![](T4metodoDireto.png)           
+![](T04metodoDireto.png)           
 
-![](T4circuitoDireto.png) 
+![](T04circuitoDireto.png) 
                 
             ii. Método das malhas
             
-![](T4metodoDasMalhas.png)
+![](T04metodoDasMalhas.png)
 
-![](T4circuitoMalhas.png)
+![](T04circuitoMalhas.png)
 
             iii. Métodos nodais
 
-![](T4metodoDasTensoesNodaisp1.png)
+![](T04metodoDasTensoesNodaisp1.png)
 
-![](T4metodoDasTensoesNodaisp2.png)
+![](T04metodoDasTensoesNodaisp2.png)
 
-![](T4circuitoNodais.png)
+![](T04circuitoNodais.png)
             
 ### Aula 5
 
@@ -100,8 +100,8 @@ O sumatorio das quedas de tensão numa malha é nulo.
         
     Conceito de super-malha: 
 
-![Super-Malha](T5supermalha1.png)
-![Super-Malha](T5supermalha2.png)
+![Super-Malha](T05supermalha1.png)
+![Super-Malha](T05supermalha2.png)
 
 Quando entre duas malhas simples existe um ramo com uma fonte de corrente.
     
@@ -111,33 +111,41 @@ Quando entre duas malhas simples existe um ramo com uma fonte de corrente.
 
 - Relacionar as correntes de malha com a corrente do ramo contido na super-malha.
 
-        Resolvendo
+    Resolvendo
 
-            1º Super-malha:
+    * 1º Super-malha:
     
-![](T5supermalha1ComCorrentesFicticias.png)
+        ![](T05supermalha1ComCorrentesFicticias.png)
 
-\- V1 + R1 · IA + R3 · IB + V2 = 0
+        
+        
+        $$ - V1 + R1 · IA + R3 * IB + V2 = 0   $$ (1)
+        
 
-I1 = IA - IB
+        $$ I1 = IA - IB    $$ (2)
+        
 
-            2º Super-Malha:
+
+    - 2º Super-Malha:
     
-![](T5supermalha2ComCorrentesFicticias.png)
+        ![](T05supermalha2ComCorrentesFicticias.png)
 
-\- V3 + R4 · IA + R6 · IB + R8 · IC + V4 = 0
+        $$ - V3 + R4 · IA + R6 · IB + R8 · IC + V4 = 0 $$(1)
 
-I2 = IA - IB
+        $$ I2 = IA - IB $$(2)
 
-I3 = IB - IC
+        $$ I3 = IB - IC $$(3)
 
-    Conceito de super-nó: 
+- **Conceito de super-nó:**
 
-Quando entre dois nós essenciais existe um ramo com uma fonte de tensão.
+    Quando entre dois nós essenciais existe um ramo com uma fonte de tensão.
 
-- Aplicar método das tensões nodais.
-- Aplicar a lei dos nós ao super-nó.
-- Relacionar as quedas de tensão nodal com a tensão nodal com a tensão entre os nós que compõem o super-nó.
+  - Aplicar método das tensões nodais.
+  - Aplicar a lei dos nós ao super-nó.
+  - Relacionar as quedas de tensão nodal com a tensão nodal com a tensão entre os nós que compõem o super-nó.
+  
+**Super-nós:**
+
 - **UM SUPER-NÓ NÃO PODE SER NÓ DE REFERÊNCIA**
 
         Super-nó:
@@ -168,9 +176,9 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
     um circuito com um díodo ou transistors é um exemplo de um circuito não linear porque pode ou não transportar corrente dependendo da corrente/volagem
 
     
-        Exemplo
+    - Exemplo
         
-![](T6teoremadethevenin.png)
+        ![](T06teoremadethevenin.png)
 
 ### Aula 7 - Explicação teorica de diodos
 
@@ -178,7 +186,7 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
 
 ### Aula 8 - Analise de circuitos com diodos
 
-![](T8comportamentodeumdiodo.png)
+![](T08comportamentodeumdiodo.png)
 
 Análise de circuitos com díodos: 
 
@@ -246,11 +254,11 @@ Análise de circuito com díodos (fontes de tensão alternada)
     
     3.  Analisar o circuito utilizando a lei das malhas.
     
-            ![](T9exemplo1.1.2.png)
-    
-            Rd = 100Ω
-            
-            Vo = 0,7V
+        ![](T09exemplo1.1.2.png)
+
+        Rd = 100Ω
+        
+        Vo = 0,7V
         
     
     4. Relacionar a corrente do díodo (id) com a tensão de entrada do círcuito (vin).
@@ -465,13 +473,14 @@ A = [
 
 **Como obter os resultados:**
 
-A \* x  = b <=>, sendo x as incognitas I*X* como I1, I2 etc
+$$ A · x  = b $$ (1) 
+sendo x as incognitas I*X* como I1, I2 etc
+$$ x = b / A $$ (2)
 
-<=> x = b / A
+$$ x = 1 / A * b $$ (3)
 
-<=> x = 1 / A \* b
+$$ x = A^(-1) * b $$ (4)
 
-<=> x = A^(-1) * b
 
 
 logo na formula da calculadora escrevemos `A^-1 * b`
@@ -583,14 +592,18 @@ I6 = VC / 8
 ##### VI. Substituir correntes pelas tensões nodais (substituir V em IV)
 
 
-**Nó A:** I1 + ( VA - VC ) / 25 + ( VA - VB ) / 5 = 0
+**Nó A:** 
+
+I1 + ( VA - VC ) / 25 + ( VA - VB ) / 5 = 0
 
 <=> I1 + VA/25 - VC/25 + VA/5 - VB/5 = 0
 
 <=> I1  - VB/5  - VC/25 = -180·(1/25+ 1/5)
 
 
-**Nó B:** ( VA - VB ) / 5 = ( VB - VC ) /  10 + VB / 70 <=>
+**Nó B:** 
+
+( VA - VB ) / 5 = ( VB - VC ) /  10 + VB / 70 <=>
 
 <=> VA/5 -VB/5 = VB/10 - VC/10 + VB/70
 
@@ -599,7 +612,9 @@ I6 = VC / 8
 <=> VB·(-1/5 - 1/10 - 1/70) + VB/10 = -180/5
 
 
-**Nó C:** ( VB - VC ) /  10 + ( VA - VC ) / 25 = VC / 8 <=>
+**Nó C:** 
+
+( VB - VC ) /  10 + ( VA - VC ) / 25 = VC / 8 <=>
 
 <=> VB/10 - VC/10 + VA/25 - VC/25 = VC/8 <=>
 
