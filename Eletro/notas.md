@@ -10,21 +10,21 @@
         a. Passivos - Retiram energia ao circuito (transformando em)
         
             i. Resistencia (calor)
-![](T03resistencia.png)
+![](img/T03resistencia.png)
 
             ii. Condensador (campo eletrico)
-![](T03condensador.png)
+![](img/T03condensador.png)
             
             iii. Bobine (campo magnetico)   
-![](T03bobine.png)
+![](img/T03bobine.png)
 
         b. Activos - Fornecem energia ao circuito
         
             i. Fontes de tensão
-![](T03fonteTensao.png)
+![](img/T03fonteTensao.png)
             
             ii. Fontes de corrente
-![](T03fonteCorrente.png)
+![](img/T03fonteCorrente.png)
 
     2. Análise Circuitos
         
@@ -33,22 +33,22 @@
             a. Ferramentas:
                 
                 i. Fórmula do divisor de tensão.
-![](T03divisorTensao.png)
-![](T03divisorTensaoDemo.png)
+![](img/T03divisorTensao.png)
+![](img/T03divisorTensaoDemo.png)
 
                 ii. Fórmula do divisor da corrente.
                 
-![](T03divisorCorrente.png)
+![](img/T03divisorCorrente.png)
                 
                 iii. Associaão de resistências.
                     
                     Resistências em série.
-![](T03resistenciaSerie.png)
-![](T03resistenciaSerieDemo.png)
+![](img/T03resistenciaSerie.png)
+![](img/T03resistenciaSerieDemo.png)
 
                     Resistências em paralelo.
-![](T03resistenciaParalelo.png)
-![](T03resistenciaParaleloDemo.png)
+![](img/T03resistenciaParalelo.png)
+![](img/T03resistenciaParaleloDemo.png)
                         
                     
             
@@ -59,40 +59,40 @@
 
 O sumatorio das correntes que entram é igual ao sumatirio das correntes que saiem de um nó.
 
-![](T04leiDosNos.png)
+![](img/T04leiDosNos.png)
 
 **Lei das Malhas**
 
 O sumatorio das quedas de tensão numa malha é nulo.
 
-![](T04leiDasMalhas.png)
+![](img/T04leiDasMalhas.png)
 
     1. Circuitos Complexos
 
-![](T04circuito.png)
+![](img/T04circuito.png)
 
 
         a. Técnicas de análises  de circuitos
         
             i. Método direto
             
-![](T04metodoDireto.png)           
+![](img/T04metodoDireto.png)           
 
-![](T04circuitoDireto.png) 
+![](img/T04circuitoDireto.png) 
                 
             ii. Método das malhas
             
-![](T04metodoDasMalhas.png)
+![](img/T04metodoDasMalhas.png)
 
-![](T04circuitoMalhas.png)
+![](img/T04circuitoMalhas.png)
 
             iii. Métodos nodais
 
-![](T04metodoDasTensoesNodaisp1.png)
+![](img/T04metodoDasTensoesNodaisp1.png)
 
-![](T04metodoDasTensoesNodaisp2.png)
+![](img/T04metodoDasTensoesNodaisp2.png)
 
-![](T04circuitoNodais.png)
+![](img/T04circuitoNodais.png)
             
 ### Aula 5
 
@@ -115,26 +115,26 @@ Quando entre duas malhas simples existe um ramo com uma fonte de corrente.
 
     * 1º Super-malha:
     
-        ![](T05supermalha1ComCorrentesFicticias.png)
+        ![](img/T05supermalha1ComCorrentesFicticias.png)
 
         
         
-        $$ - V1 + R1 · IA + R3 * IB + V2 = 0   $$ (1)
+        $- V1 + R1 · IA + R3 * IB + V2 = 0$ (1)
         
 
-        $$ I1 = IA - IB    $$ (2)
+        $I1 = IA - IB$ (2)
         
 
 
     - 2º Super-Malha:
     
-        ![](T05supermalha2ComCorrentesFicticias.png)
+        ![](img/T05supermalha2ComCorrentesFicticias.png)
 
-        $$ - V3 + R4 · IA + R6 · IB + R8 · IC + V4 = 0 $$(1)
+        $- V3 + R4 · IA + R6 · IB + R8 · IC + V4 = 0$ (1)
 
-        $$ I2 = IA - IB $$(2)
+        $I2 = IA - IB$(2)
 
-        $$ I3 = IB - IC $$(3)
+        $I3 = IB - IC$(3)
 
 - **Conceito de super-nó:**
 
@@ -151,7 +151,7 @@ Quando entre duas malhas simples existe um ramo com uma fonte de corrente.
         Super-nó:
 
     
-![]()
+![](img/)
 
 ### Aula 6 - Teoremas de simplificaão de circuitos (sistemas lineares)
 
@@ -178,7 +178,7 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
     
     - Exemplo
         
-        ![](T06teoremadethevenin.png)
+        ![](img/T06teoremadethevenin.png)
 
 ### Aula 7 - Explicação teorica de diodos
 
@@ -186,7 +186,7 @@ Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, con
 
 ### Aula 8 - Analise de circuitos com diodos
 
-![](T08comportamentodeumdiodo.png)
+![](img/T08comportamentodeumdiodo.png)
 
 Análise de circuitos com díodos: 
 
@@ -254,7 +254,7 @@ Análise de circuito com díodos (fontes de tensão alternada)
     
     3.  Analisar o circuito utilizando a lei das malhas.
     
-        ![](T09exemplo1.1.2.png)
+        ![](img/T09exemplo1.1.2.png)
 
         Rd = 100Ω
         
@@ -300,11 +300,11 @@ Transístores:
                 
             É um dispositivo que limita a tensão, por exemplo podemos usar a divisão de tensão para obter uma fonte de 5V a partir de uma fonte de 12V com resistencias desta forma (graças ao divisor da tensão):
             
-            ![](T10divisorDeTensaoFonte.png)
+            ![](img/T10divisorDeTensaoFonte.png)
             
             A resistencia da fonte tem de ser ajustada diacordo com a resistencia do dispositivo divital para que se de sempre 5V
             
-            ![](T10divisorDeTensaoFonte2.png)
+            ![](img/T10divisorDeTensaoFonte2.png)
             
             Para tal usa se o transistor para comtrolar digitalmente a reistencia R1.
             
@@ -312,7 +312,7 @@ Transístores:
                 
         * Amplificador
            
-           ![](T10Amplificador.png)
+           ![](img/T10Amplificador.png)
         
     - Corte/saturação ( interruptor ).
         - Fontes de alimentação comutadas.
@@ -326,11 +326,11 @@ Transístores:
         
         Simbolo:
         
-        ![](T10MOSFETcanalNSimbolo.png)
+        ![](img/T10MOSFETcanalNSimbolo.png)
         
         Exemplo Funcional:
         
-        ![](T10MOSFETexemploFuncionamento.png)
+        ![](img/T10MOSFETexemploFuncionamento.png)
         
         - Ganho é reduzido ( não é uma boa solução para amplificadores).
         - Perdas reduzindas na comutação (interruptor).
@@ -343,21 +343,21 @@ Transístores:
             
             Simbolo:
             
-            ![](T10simboloNPN.png)
+            ![](img/T10simboloNPN.png)
             
             Estrutura:
             
-            ![](T10estruturaFisicaNPN.png)
+            ![](img/T10estruturaFisicaNPN.png)
         
         - PNP
 
             Simbolo:
         
-            ![](T10simboloPNP.png)
+            ![](img/T10simboloPNP.png)
 
             Estrutura:
 
-            ![](T10estruturaFisicaPNP.png)
+            ![](img/T10estruturaFisicaPNP.png)
             
             
         - Discriçào:
@@ -382,7 +382,7 @@ Transístores:
         
     - Amplificador com transístor BJT (configurador):
 
-        ![](T10amplificadorBJT.png)
+        ![](img/T10amplificadorBJT.png)
             
     - Curva caracteristica transístor BJT na configuração em emissor-comum:
     
@@ -394,23 +394,23 @@ Transístores:
         
 ### Aula 11 - Simulações de transístors
 
-![](T11?????.png)
+![](img/T11?????.png)
 
 Simulações:
 
 - Circuitos
     
-    ![](T11Circuitos.png)
+    ![](img/T11Circuitos.png)
     
 - Calculos
     
-    ![](T11calculosP1.png)
+    ![](img/T11calculosP1.png)
     
-    ![](T11calculosP2.png)
+    ![](img/T11calculosP2.png)
     
 ### Aula 12 - Analise de Amplificadores
 
-![](T12analiseP1.png)
+![](img/T12analiseP1.png)
 
 ### Aula 13 - Amp-Op
 
@@ -473,13 +473,15 @@ A = [
 
 **Como obter os resultados:**
 
-$$ A · x  = b $$ (1) 
+$A · x  = b$ (1) 
+
 sendo x as incognitas I*X* como I1, I2 etc
-$$ x = b / A $$ (2)
 
-$$ x = 1 / A * b $$ (3)
+$x = b / A$ (2)
 
-$$ x = A^(-1) * b $$ (4)
+$x = 1 / A * b$ (3)
+
+$x = A^(-1) * b$ (4)
 
 
 
@@ -506,10 +508,10 @@ P = V·I1 = 180·I1 = 180·12 = 2160W = 2.16 kW
 #### b) Metodo das malhas
 
 ##### **I.** Identificar as malhas simples
-![](A4E8fig1nodesSimples.png)
+![](img/A4E8fig1nodesSimples.png)
 
 ##### II. Identificar correntes fictícias (correntes de malha)
-![](A4E8fig1comMalhas.png)
+![](img/A4E8fig1comMalhas.png)
 
 ##### III. Aplicar a lei das malhas às malhas simples
 
@@ -557,18 +559,18 @@ P = -V·I2 = -180 · 12 = -2160W = -2.16kW
 #### c) Metodo das tensões nodais
 
 ##### I. Identificar nós essenciais
-![](A4E8fig1nodesSimples.png)
+![](img/A4E8fig1nodesSimples.png)
 
 ##### II. Identificar nó de referência (nó com + ligações)
 É o nó D.
 
 ##### III. Identificar tensões nodais (quedas de tensão dos nós essenciais não de referência para o nó de referência)
 
-![](A4E8fig1comTensoesNodais.png)
+![](img/A4E8fig1comTensoesNodais.png)
 
 ##### IV. Aplicar a lei dos nós aos nós essenciais não de referência
 
-![](A4E8fig1leisDosNos.png)
+![](img/A4E8fig1leisDosNos.png)
 
 Nó A: I1 + I2 + I3 = 0
 Nó B: I3 = I5 + I4
@@ -614,14 +616,15 @@ I1 + ( VA - VC ) / 25 + ( VA - VB ) / 5 = 0
 
 **Nó C:** 
 
-( VB - VC ) /  10 + ( VA - VC ) / 25 = VC / 8 <=>
+$$
+( VB - VC ) /  10 + ( VA - VC ) / 25 = VC / 8 \leftrightarrow
 
-<=> VB/10 - VC/10 + VA/25 - VC/25 = VC/8 <=>
+\xcancel{hello} VB/10 - VC/10 + VA/25 - VC/25 = VC/8 <=>
 
 <=> VA/25 + VB/10 + VC·( -1/10 -1/25 - 1/8) = 0 <=>
 
 <=> VB/10 + VC·( -1/10 -1/25 - 1/8) = -180/25
-
+$$
 
 ##### VII. Calculos e resultados
 
@@ -649,3 +652,4 @@ I3 = 80
 
 P - V·I1 = 180 · (- 12) = -2160 W = -2.16 kW
 
+```

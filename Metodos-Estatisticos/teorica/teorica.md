@@ -45,4 +45,22 @@ Teorema:
 Seja A um acontecimento de um universo de resultados $\Omega$
 > $P(\bar A)=1-P(A)$
 
+## Distrubuição marginal e distribuição condicional
 
+![](Screenshot_20200828_181050.png)
+
+Perguntas a fazer nesta tabela:
+> Qual é a percentagem de acertos e os tempos que ficaram a estudar?
+
+
+![](Screenshot_20200828_181546.png) é a distribuição marginal. Marginal, sendo as probablidades laterais.
+
+As probablidades condicionais são aquelas que tem condições, por exemplo os valores que estao no meio da tabela.
+
+## Varíaveis aleatórias: discretas e contínuas
+
+![](Screenshot_20200828_182247.png)
+
+Discretas: sao contaveis.
+
+Continuas: infinitas.
