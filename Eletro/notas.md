@@ -1,4 +1,4 @@
-[voltar](../README.md)
+[voltar](../index.html)
 # Estudo de Eletro
 
 ## Aulas Teoricas

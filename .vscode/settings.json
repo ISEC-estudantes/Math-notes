@@ -1,3 +1,5 @@
 {
-    "vscode-math-to-image.svgSavePath": "Current file directory"
+    
+    "vscode-math-to-image.svgSavePath": "Current file directory",
+    "markdown.extension.print.theme": "dark"
 }

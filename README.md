@@ -2,7 +2,7 @@
 
 Este repo serve para guardar os meus apontamentos e recursos para estudar.
 
-[Abrir os apontamentos]()
+[Abrir os apontamentos](https://onikenx.github.io/school-notes/)
 
 ## Contribuição
 
