@@ -1,8 +1,8 @@
-# school-notes
+# Math-notes
 
-Este repo serve para guardar os meus apontamentos e recursos para estudar.
+Este repo serve para guardar os meus apontamentos e recursos para estudar disciplinas relacionadas a Matematicas.
 
-[Abrir os apontamentos](https://onikenx.github.io/school-notes/)
+[Abrir os apontamentos](https://isec-notas.github.io/Math-notes)
 
 ## Contribuição
 

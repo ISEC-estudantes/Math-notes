@@ -115,3 +115,19 @@ P(E/ \overline{A}) = ((1- P(A/E)) ·P(E))/(1-P(A))\\
 P(E/ \overline{A}) = ((1-0.25) ·0.3)/(1-0.2126)\\
 P(E/ \overline{A}) = 0.177165
 $
+
+## Variaveis aleatorias
+$$
+X : Ω → IR\\
+w → X(w)
+$$
+
+- ∀A ⊆ Ω, X(A) = {X(w) : w ∈ A} (imagem de A por X)
+
+- ∀E ⊆ IR, X −1 (E) = {w ∈ Ω : X(w) ∈ E}(imagem inversa de E por X)
+
+  - Note que se w ∈ X −1(E) ⇒ X(w) ∈ E.
+
+
+E(X) = X x∈S xP (X = x) 
+

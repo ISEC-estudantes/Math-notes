@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 3</title>
+        <style>
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </head>
+    <body>
+        <blockquote>
+<h1 id="aulas-teoricas"><strong>Aulas Teoricas</strong></h1>
+</blockquote>
+<h1 id="aula-3">Aula 3</h1>
+<pre><code>1. Componentes
+    
+    a. Passivos - Retiram energia ao circuito (transformando em)
+    
+        i. Resistencia (calor)
+</code></pre>
+<p><img src="img/T03resistencia.png" alt=""></p>
+<pre><code>        ii. Condensador (campo eletrico)
+</code></pre>
+<p><img src="img/T03condensador.png" alt=""></p>
+<pre><code>        iii. Bobine (campo magnetico)   
+</code></pre>
+<p><img src="img/T03bobine.png" alt=""></p>
+<pre><code>    b. Activos - Fornecem energia ao circuito
+    
+        i. Fontes de tensão
+</code></pre>
+<p><img src="img/T03fonteTensao.png" alt=""></p>
+<pre><code>        ii. Fontes de corrente
+</code></pre>
+<p><img src="img/T03fonteCorrente.png" alt=""></p>
+<pre><code>2. Análise Circuitos
+    
+    1. Circuitos Simples (circuitos com uma fonte)
+    
+        a. Ferramentas:
+            
+            i. Fórmula do divisor de tensão.
+</code></pre>
+<p><img src="img/T03divisorTensao.png" alt="">
+<img src="img/T03divisorTensaoDemo.png" alt=""></p>
+<pre><code>            ii. Fórmula do divisor da corrente.
+</code></pre>
+<p><img src="img/T03divisorCorrente.png" alt=""></p>
+<pre><code>            iii. Associaão de resistências.
+                
+                Resistências em série.
+</code></pre>
+<p><img src="img/T03resistenciaSerie.png" alt="">
+<img src="img/T03resistenciaSerieDemo.png" alt=""></p>
+<pre><code>                Resistências em paralelo.
+</code></pre>
+<p><img src="img/T03resistenciaParalelo.png" alt="">
+<img src="img/T03resistenciaParaleloDemo.png" alt=""></p>
+<h3 id="aula-4">Aula 4</h3>
+<p><strong>Lei dos nós</strong></p>
+<p>O sumatorio das correntes que entram é igual ao sumatirio das correntes que saiem de um nó.</p>
+<p><img src="img/T04leiDosNos.png" alt=""></p>
+<p><strong>Lei das Malhas</strong></p>
+<p>O sumatorio das quedas de tensão numa malha é nulo.</p>
+<p><img src="img/T04leiDasMalhas.png" alt=""></p>
+<pre><code>1. Circuitos Complexos
+</code></pre>
+<p><img src="img/T04circuito.png" alt=""></p>
+<pre><code>    a. Técnicas de análises  de circuitos
+    
+        i. Método direto
+</code></pre>
+<p><img src="img/T04metodoDireto.png" alt=""></p>
+<p><img src="img/T04circuitoDireto.png" alt=""></p>
+<pre><code>        ii. Método das malhas
+</code></pre>
+<p><img src="img/T04metodoDasMalhas.png" alt=""></p>
+<p><img src="img/T04circuitoMalhas.png" alt=""></p>
+<pre><code>        iii. Métodos nodais
+</code></pre>
+<p><img src="img/T04metodoDasTensoesNodaisp1.png" alt=""></p>
+<p><img src="img/T04metodoDasTensoesNodaisp2.png" alt=""></p>
+<p><img src="img/T04circuitoNodais.png" alt=""></p>
+<h3 id="aula-5">Aula 5</h3>
+<h4 id="análise-de-circuitos-complexos-casos-particulares">Análise de circuitos complexos: Casos particulares</h4>
+<pre><code>Conceito de super-malha: 
+</code></pre>
+<p><img src="T05supermalha1.png" alt="Super-Malha">
+<img src="T05supermalha2.png" alt="Super-Malha"></p>
+<p>Quando entre duas malhas simples existe um ramo com uma fonte de corrente.</p>
+<ul>
+<li>
+<p>Aplicar método das malhas</p>
+</li>
+<li>
+<p>Aplicar a lei das malhas à super-malha.</p>
+</li>
+<li>
+<p>Relacionar as correntes de malha com a corrente do ramo contido na super-malha.</p>
+<p>Resolvendo</p>
+<ul>
+<li>
+<p>1º Super-malha:</p>
+<p><img src="img/T05supermalha1ComCorrentesFicticias.png" alt=""></p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mi>V</mi><mn>1</mn><mo>+</mo><mi>R</mi><mn>1</mn><mo separator="true">⋅</mo><mi>I</mi><mi>A</mi><mo>+</mo><mi>R</mi><mn>3</mn><mo>∗</mo><mi>I</mi><mi>B</mi><mo>+</mo><mi>V</mi><mn>2</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">- V1 + R1 · IA + R3 * IB + V2 = 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord">−</span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord">1</span><span class="mpunct">⋅</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> (1)</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mn>1</mn><mo>=</mo><mi>I</mi><mi>A</mi><mo>−</mo><mi>I</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">I1 = IA - IB</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span> (2)</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>2º Super-Malha:</p>
+<p><img src="img/T05supermalha2ComCorrentesFicticias.png" alt=""></p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mi>V</mi><mn>3</mn><mo>+</mo><mi>R</mi><mn>4</mn><mo separator="true">⋅</mo><mi>I</mi><mi>A</mi><mo>+</mo><mi>R</mi><mn>6</mn><mo separator="true">⋅</mo><mi>I</mi><mi>B</mi><mo>+</mo><mi>R</mi><mn>8</mn><mo separator="true">⋅</mo><mi>I</mi><mi>C</mi><mo>+</mo><mi>V</mi><mn>4</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">- V3 + R4 · IA + R6 · IB + R8 · IC + V4 = 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord">−</span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord">4</span><span class="mpunct">⋅</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord">6</span><span class="mpunct">⋅</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord">8</span><span class="mpunct">⋅</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> (1)</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mn>2</mn><mo>=</mo><mi>I</mi><mi>A</mi><mo>−</mo><mi>I</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">I2 = IA - IB</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span>(2)</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mn>3</mn><mo>=</mo><mi>I</mi><mi>B</mi><mo>−</mo><mi>I</mi><mi>C</mi></mrow><annotation encoding="application/x-tex">I3 = IB - IC</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span>(3)</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Conceito de super-nó:</strong></p>
+<p>Quando entre dois nós essenciais existe um ramo com uma fonte de tensão.</p>
+<ul>
+<li>Aplicar método das tensões nodais.</li>
+<li>Aplicar a lei dos nós ao super-nó.</li>
+<li>Relacionar as quedas de tensão nodal com a tensão nodal com a tensão entre os nós que compõem o super-nó.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Super-nós:</strong></p>
+<ul>
+<li>
+<p><strong>UM SUPER-NÓ NÃO PODE SER NÓ DE REFERÊNCIA</strong></p>
+<pre><code>  Super-nó:
+</code></pre>
+</li>
+</ul>
+<p><img src="img/" alt=""></p>
+<h3 id="aula-6---teoremas-de-simplificaão-de-circuitos-sistemas-lineares">Aula 6 - Teoremas de simplificaão de circuitos (sistemas lineares)</h3>
+<ul>
+<li>
+<p><strong>Teorema de Thevenin</strong> - permite converter um circuito complexo num circuito simples composto por uma fonte de tensão (tensão de thevenin) e uma resistência (resistência de thevenin).</p>
+</li>
+<li>
+<p><strong>Teorema de sobreposição</strong> - permite converter um circuito complexo num conjunto de diversos circuitos simples.</p>
+<ul>
+<li>Analisar cada um dos ciruitos simples.</li>
+<li>Adicionar os contributos individuais de cada circuito simples.</li>
+</ul>
+</li>
+</ul>
+<p>Sistema de eletrónico (fonte de tensão, fontes de corrente, resistências, condesadores e as bobinas).</p>
+<ul>
+<li>
+<p>Memória.</p>
+</li>
+<li>
+<p>Establidade.</p>
+</li>
+<li>
+<p>Causais.</p>
+</li>
+<li>
+<p>Linearidade ( fontes de tensão, fonte de corrente e resistências)</p>
+<p>um circuito com um díodo ou transistors é um exemplo de um circuito não linear porque pode ou não transportar corrente dependendo da corrente/volagem</p>
+<ul>
+<li>
+<p>Exemplo</p>
+<p><img src="img/T06teoremadethevenin.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="aula-7---explicação-teorica-de-diodos">Aula 7 - Explicação teorica de diodos</h3>
+<p><a href="https://pt.wikipedia.org/wiki/Diodo_semicondutor">Wikipedia - Diodo semicondutor</a></p>
+<h3 id="aula-8---analise-de-circuitos-com-diodos">Aula 8 - Analise de circuitos com diodos</h3>
+<p><img src="img/T08comportamentodeumdiodo.png" alt=""></p>
+<p>Análise de circuitos com díodos:</p>
+<p><strong>1º Identificar o nº máximo de estados.</strong></p>
+<p>Nº máximo de estados é 2 elevados ao numero de díodos</p>
+<p>Exemplos:</p>
+<ul>
+<li>
+<p>1 díodo = 2¹ = 2 ESTADOS</p>
+<ol>
+<li>
+<p>Diodo conduz</p>
+</li>
+<li>
+<p>Diodo n/conduz</p>
+</li>
+</ol>
+</li>
+<li>
+<p>2 díodos (D1,D2) = 2² = 4 ESTADOS</p>
+<ol>
+<li>
+<p>D1 conduz e D2 conduz</p>
+</li>
+<li>
+<p>D1 conduz e D2 n/conduz</p>
+</li>
+<li>
+<p>D1 n/conduz e D2 n/conduz</p>
+</li>
+<li>
+<p>D1 n/conduz e D2 conduz</p>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>2º Analisar todos os estados de forma individual</strong></p>
+<ol>
+<li>
+<p>Começar por analisar o estado em que mais dóiodos conduzem.</p>
+<ol>
+<li>
+<p>Impor a condução do díodo (partir do pressuposto que o díodo conduz)</p>
+</li>
+<li>
+<p>Substituir o díodo pelo circuito equivalente em condução.</p>
+</li>
+<li>
+<p>Impor o sentido correto para a corrente.A corrente no díodo deve ter o sentido do ânodo para o cátodo.</p>
+</li>
+<li>
+<p>Impor a condição : Id &gt; 0 -&gt; obter a condição que determina a condução do díodo. Qual o valor da tensão de entrada que garante a condução do díodo.</p>
+<p>Identificar para que valores de tensão de entrada o díodo conduz.</p>
+</li>
+<li>
+<p>Relacionar a tensão de saída com a tensão de entrada (função transferência.)</p>
+</li>
+</ol>
+</li>
+<li>
+<p>agregar os valores das equações/ condições obtidas para cada um dos estados numa só equação não linear - função transferência analítica.</p>
+</li>
+<li>
+<p>Representar graficamente a função transferência.</p>
+</li>
+<li>
+<p>representação temporal das formas de onda da tensão de entrada e de saída.</p>
+</li>
+</ol>
+<h3 id="aula-9---continuação-da-aula-8">Aula 9 - Continuação da aula 8</h3>
+<p>Análise de circuito com díodos (fontes de tensão alternada)</p>
+<ol>
+<li>
+<p>Identificar o nº de estados.</p>
+<ol>
+<li>
+<p>Nº máximo de estados = 2 ^ (nº de díodos)</p>
+</li>
+<li>
+<p>Analisar individualmente todos os estados.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Começar por analisar o estado em que o díodo conduz (partir do pressuposto que o díodo conduz).</p>
+<ol>
+<li>
+<p>Substituir o díodo pelo circuito equivalente em condução</p>
+</li>
+<li>
+<p>Impor o sentido correto para a corrente (A -&gt; K)</p>
+</li>
+<li>
+<p>Analisar o circuito utilizando a lei das malhas.</p>
+<p><img src="img/T09exemplo1.1.2.png" alt=""></p>
+<p>Rd = 100Ω</p>
+<p>Vo = 0,7V</p>
+</li>
+<li>
+<p>Relacionar a corrente do díodo (id) com a tensão de entrada do círcuito (vin).</p>
+<ol>
+<li>
+<p>Substituir o díodo pelo circuito equivalente em n/condução.</p>
+</li>
+<li>
+<p>Analisar o circuito utilizando a lei das malhas.</p>
+</li>
+<li>
+<p>Determinar para que valores de vin o díodo n/conduz.</p>
+</li>
+<li>
+<p>Relacionar a tensão de sáida (vout) com tensão de entrada (Funcão tranferência)</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Juntar ambas as equações numa equação não  linear → função transferência analítica.</p>
+</li>
+<li>
+<p>Representar a função transferência graficamente.</p>
+</li>
+<li>
+<p>Representar as formas de onda da tensão de entrada e saída em função do tempo.</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="aula-10---transistors">Aula 10 - Transistors</h3>
+<p>Díodos e resistência:</p>
+<ul>
+<li>
+<p>Passivos.</p>
+</li>
+<li>
+<p>Dois terminais.</p>
+</li>
+</ul>
+<p>Transístores:</p>
+<ul>
+<li>
+<p>Ativos.</p>
+</li>
+<li>
+<p>Três terminais</p>
+</li>
+<li>
+<p>Aplicações (transistores):</p>
+<ul>
+<li>
+<p>Linear (potenciómetro controlado eletronicamente).</p>
+<ul>
+<li>
+<p>Fontes de alimentação lineares.</p>
+<p>É um dispositivo que limita a tensão, por exemplo podemos usar a divisão de tensão para obter uma fonte de 5V a partir de uma fonte de 12V com resistencias desta forma (graças ao divisor da tensão):</p>
+<p><img src="img/T10divisorDeTensaoFonte.png" alt=""></p>
+<p>A resistencia da fonte tem de ser ajustada diacordo com a resistencia do dispositivo divital para que se de sempre 5V</p>
+<p><img src="img/T10divisorDeTensaoFonte2.png" alt=""></p>
+<p>Para tal usa se o transistor para comtrolar digitalmente a reistencia R1.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Amplificador</p>
+<p><img src="img/T10Amplificador.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Corte/saturação ( interruptor ).</p>
+<ul>
+<li>Fontes de alimentação comutadas.</li>
+<li>Amplificadores comutadas ( classe D ).</li>
+<li>Dispositivos digitais ( AND , OR , NOT , NAND , NOR ).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Transístores:</p>
+<ul>
+<li>
+<p>MOSFET - transístor de efeito de campo de óxido metálico semicondutor.</p>
+<p>Simbolo:</p>
+<p><img src="img/T10MOSFETcanalNSimbolo.png" alt=""></p>
+<p>Exemplo Funcional:</p>
+<p><img src="img/T10MOSFETexemploFuncionamento.png" alt=""></p>
+<ul>
+<li>Ganho é reduzido ( não é uma boa solução para amplificadores).</li>
+<li>Perdas reduzindas na comutação (interruptor).</li>
+</ul>
+</li>
+<li>
+<p>BJT - transístor de bipolar de junção.</p>
+<ul>
+<li>Ganho é mito elevado ( é uma boa solução para amplificadores )</li>
+<li>Perdas elevadas na comutação ( não é uma boa solução para operar como interruptor )</li>
+</ul>
+</li>
+<li>
+<p>Transístores Bipolares:</p>
+<ul>
+<li>
+<p>NPN</p>
+<p>Simbolo:</p>
+<p><img src="img/T10simboloNPN.png" alt=""></p>
+<p>Estrutura:</p>
+<p><img src="img/T10estruturaFisicaNPN.png" alt=""></p>
+</li>
+<li>
+<p>PNP</p>
+<p>Simbolo:</p>
+<p><img src="img/T10simboloPNP.png" alt=""></p>
+<p>Estrutura:</p>
+<p><img src="img/T10estruturaFisicaPNP.png" alt=""></p>
+</li>
+<li>
+<p>Discriçào:</p>
+<p>Emissor: fortemente dopada e de dimensão intermédia - emite.</p>
+<p>Base: fracamente dopada e de dimensão muito reduzida.</p>
+<p>Coletor: Dopagem intermédia e de dimensão muito grande.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Transístores BJT</p>
+<ul>
+<li>Díodo emissor</li>
+<li>Díodo coletor</li>
+</ul>
+</li>
+<li>
+<p>Polarização - aplicação de uma tensão aos díodos (DE e DC) que compõe o transístor</p>
+<ul>
+<li>
+<p>DE e DC diretamente polarizado - região de saturação (interruptor fechado)</p>
+</li>
+<li>
+<p>DE e DC inversamente polarizado - região de corte (interruptor aberto)</p>
+</li>
+<li>
+<p>DE diretamente polarizado e  o DC inversamente polarizado - região ativa (linear) - amplificador.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Amplificador com transístor BJT (configurador):</p>
+<p><img src="img/T10amplificadorBJT.png" alt=""></p>
+</li>
+<li>
+<p>Curva caracteristica transístor BJT na configuração em emissor-comum:</p>
+<ol>
+<li>
+<p>Entrada</p>
+<p>A curva caracteristica é de um díodo porque é uma relação B com E</p>
+</li>
+<li>
+<p>Saída</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="aula-11---simulações-de-transístors">Aula 11 - Simulações de transístors</h3>
+<p><img src="img/T11?????.png" alt=""></p>
+<p>Simulações:</p>
+<ul>
+<li>
+<p>Circuitos</p>
+<p><img src="img/T11Circuitos.png" alt=""></p>
+</li>
+<li>
+<p>Calculos</p>
+<p><img src="img/T11calculosP1.png" alt=""></p>
+<p><img src="img/T11calculosP2.png" alt=""></p>
+</li>
+</ul>
+<h3 id="aula-12---analise-de-amplificadores">Aula 12 - Analise de Amplificadores</h3>
+<p><img src="img/T12analiseP1.png" alt=""></p>
+<h3 id="aula-13---amp-op">Aula 13 - Amp-Op</h3>
+
+    </body>
+    </html>
