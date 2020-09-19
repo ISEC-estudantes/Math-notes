@@ -9,4 +9,5 @@
 
 ## Investigação Operacional
 [Notas de Investigação Operacional](./Investigacao-Operacional/notas.html)
+
 [Notas de Investigação Operacional (resumido)](./Investigacao-Operacional/resumido.html)
