@@ -13,10 +13,10 @@
     - [4.](#4)
     - [5.](#5)
       - [a)](#a-2)
-      - [](#)
+      - [b)](#b-2)
     - [6.](#6)
     - [7.](#7)
-      - [b)](#b-2)
+      - [a)](#a-3)
       - [b)](#b-3)
 
 # Ficha 
@@ -89,7 +89,6 @@ $P(D) = 6/20 = 3/10 = 0,3$
 
 #### a)
 
-$$
 
 #### b)
 
@@ -145,8 +144,9 @@ P(A \cap C) = 0,1$
 #### a)
  $P(\overline{B}) = 1 - P(B) =  1-0,6 = 0,4$
 
-#### 
-b) $P(A\cup B) - P(A \cap B ) = 0,3 \Leftrightarrow P(A) + P(B) - P(A \cap B) - P(A \cap B ) = 0,3 \Leftrightarrow\\
+#### b)
+
+ $P(A\cup B) - P(A \cap B ) = 0,3 \Leftrightarrow P(A) + P(B) - P(A \cap B) - P(A \cap B ) = 0,3 \Leftrightarrow\\
 0,7+0,6-2P(A \cap B) = 0,3 \Leftrightarrow\\
 P(A\cap B) = 0,5$
 
@@ -188,7 +188,7 @@ $P(E / \overline{A}) = 0,5$
 
 $P(A) = 52\% = 0,52$
 
-#### b)
+#### a)
 
 $P(\overline{A}) =100\% - 52\% =1 - 0,52 = 0,48$
 
