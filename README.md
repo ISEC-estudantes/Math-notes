@@ -7,3 +7,10 @@ Este repo serve para guardar os meus apontamentos e recursos para estudar discip
 ## Contribuição
 
 Estas notas foram escritas no code-oss com a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) e a documenção das expressões mathematicas possiveis de fazer está [aqui](https://katex.org/docs/supported.html), as minhas configurações podem ser encontradas [nesta pasta](./.vscode/settings.json) com este [tema](./css/dark.css).
+
+
+## scripts to help:
+Negate colors in images (png):
+```bash
+for x in $(ls | grep .png); do convert $x -channel RGB -negate $x; done
+```
